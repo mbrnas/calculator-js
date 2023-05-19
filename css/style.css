@@ -7,9 +7,9 @@ body {
     justify-content: center;
     margin-top: 15%;
     font-family: 'Quicksand', sans-serif;
+    background-color: #B2A4FF;
+    text-align: center;
   }
-  
-  
 
   .calculator {
     width: 200px;
@@ -50,7 +50,7 @@ body {
 
   }
   
-  .operator {
+  #clear-display {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -64,3 +64,72 @@ body {
     color: white;
   }
   
+  #divide {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2CD3E1;
+    color: white;
+  }
+
+  #multiply {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2CD3E1;
+    color: white;
+  }
+
+  #equals {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2CD3E1;
+    color: white;
+  }
+
+  #subtract {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2CD3E1;
+    color: white;
+  }
+
+  #add {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2CD3E1;
+    color: white;
+  }

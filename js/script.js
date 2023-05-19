@@ -16,11 +16,8 @@ const clearDisplay = document.getElementById("clear-display");
 const equals = document.getElementById("equals");
 const divide = document.getElementById("divide");
 
-
-digit.forEach(function (digit) { 
-    digit.addEventListener("click", function () { 
-        display.textContent += digit.innerText;
-     });
- });
-
- 
+digit.forEach(function (digit) {
+  digit.addEventListener("click", function () {
+    display.textContent += digit.innerText;
+  });
+});

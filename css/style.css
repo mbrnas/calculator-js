@@ -1,15 +1,27 @@
-  /* Calculator styles */
-  body{
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/* Calculator styles */
+
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 15%;
+    font-family: 'Quicksand', sans-serif;
   }
+  
+  
+
   .calculator {
     width: 200px;
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 4px;
+    background-color: #F8F6F4;
   }
   
   .display {
@@ -17,10 +29,14 @@
     padding: 20px;
     border: 1px solid #ccc;
     width: 153px;
+    border-radius: 5px;
+    background-color: #fff;
   }
   
   .digit {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     border: 1px solid #ccc;
@@ -28,6 +44,10 @@
     text-align: center;
     line-height: 40px;
     cursor: pointer;
+    gap: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+
   }
   
   .operator {
@@ -39,4 +59,8 @@
     text-align: center;
     line-height: 40px;
     cursor: pointer;
+    border-radius: 5px;
+    background-color: #2CD3E1;
+    color: white;
   }
+  
